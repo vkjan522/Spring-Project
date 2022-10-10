@@ -1,0 +1,15 @@
+package com.test.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController {
+
+	public String test() {
+		int a = 100;
+		int b = 200;
+		return "this is Testing \t sum of A and B is :" + (a + b);
+	}
+
+}

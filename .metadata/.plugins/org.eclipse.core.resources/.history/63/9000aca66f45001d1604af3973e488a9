@@ -1,0 +1,10 @@
+package com.api.book.entities;
+
+public class Author {
+	
+	private int authorId;
+	private String firstName;
+	private String lastName;
+	private String language;
+
+}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+</head>
+<body>
+	<h1>About to learn Thymeleaf with spring boot</h1>
+
+	<h1 th:text="${name}"></h1>
+	<h2 th:text="${currentDate}"></h2>
+	<h2>
+		Upper case of the Name is <span
+			th:text="${ #strings.toUpperCase(name)}"></span>
+	</h2>
+	<p>
+		Length of the Name is <span th:text="${#strings.length(name)}"></span>
+	</p>
+	<div th:with="a=5,b=10, n=${name}">
+		<h1>
+			value of a is <span th:text="${a}"></span>
+		</h1>
+		<h1 th:text="'value of b is'+%{b}"></h1>
+		<h1>
+			local value of n is <span th:="${n}"></span>
+		</h1>
+	</div>
+
+</body>
+</html>

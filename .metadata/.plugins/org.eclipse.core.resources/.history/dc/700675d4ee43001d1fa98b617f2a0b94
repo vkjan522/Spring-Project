@@ -1,0 +1,14 @@
+package com.jpa.test.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class User {
+	@Id
+	private int userID;
+	private String userName;
+	
+	
+
+}

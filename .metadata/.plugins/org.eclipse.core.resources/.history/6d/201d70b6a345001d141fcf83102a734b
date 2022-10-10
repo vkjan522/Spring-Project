@@ -1,0 +1,13 @@
+package com.api.book.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class FileUploadController {
+	
+	public ResponseEntity<String> uploadFile(){
+		return ResponseEntity.ok("Working");
+	}
+
+}

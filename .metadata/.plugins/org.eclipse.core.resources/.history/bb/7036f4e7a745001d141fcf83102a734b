@@ -1,0 +1,13 @@
+package com.api.book.helper;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class FileUploadHelper {
+
+	public final String UPLOAD_DIR = "/bootrestbook/src/main/resources/static/image";
+		
+	public boolean uploadFile(MultiPartFile) {
+		
+	}
+}

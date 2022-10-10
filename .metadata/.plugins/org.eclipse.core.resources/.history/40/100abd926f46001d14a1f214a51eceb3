@@ -1,0 +1,14 @@
+package com.practice.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class MyController {
+
+	public String about() {
+		System.out.println("going to inside about handler");
+		return "about";
+		//about.html
+	}
+	
+}

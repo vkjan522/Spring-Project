@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Footer template</title>
+</head>
+<body>
+	<footer>
+		<h1>About to learn thymeleaf fragments</h1>
+		<h2>this is footer</h2>
+		<h3>feel free to contact me about learning</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			Voluptas aliquam veritatis nobis quidem odio at vel in autem eos
+			quibusdam eum ipsam magnam ullam sapiente voluptatem dolor modi nam?
+			Officia!</p>
+	</footer>
+
+</body>
+</html>

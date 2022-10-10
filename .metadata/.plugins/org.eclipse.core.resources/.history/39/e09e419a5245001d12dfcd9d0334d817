@@ -1,0 +1,3 @@
+spring.datasourse.name=datasoursename
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+

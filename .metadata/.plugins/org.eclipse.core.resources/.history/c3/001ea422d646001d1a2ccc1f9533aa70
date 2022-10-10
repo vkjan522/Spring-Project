@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>conditional statement</title>
+</head>
+<body>
+	<h1>Conditional statement example</h1>
+	<h1>
+		User is <span th:style="${isActive} ? 'color:green' : 'color:red'"
+			th:text="${isActive} ? 'Active' : 'Not Active'"></span>
+	</h1>
+	<h1 th:if="${gender}=='m'">User is Male</h1>
+	<h1 th:unless="${f}">User is Female</h1>
+
+</body>
+</html>

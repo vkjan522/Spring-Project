@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+</head>
+<body>
+	<h1>About to learn Thymeleaf with spring boot</h1>
+
+	<h1 th:text="${name}"></h1>
+	<h2 th:text="${currentDate}"></h2>
+	<h2>
+		Upper case of the Name is <span
+			th:text="${ #strings.toUpperCase(name)}"></span>
+	</h2>
+	<p>
+		Length of the Name is <span th:text="${ #strings.Length(name)}"></span>
+	</p>
+
+</body>
+</html>
